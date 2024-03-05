@@ -201,7 +201,7 @@ class Customer1(unittest.TestCase):
         
         name.send_keys("johnjohn")
         last.send_keys("canoncan")
-        age.send_keys("151")
+        age.send_keys("150")
 
         submit = self.driver.find_element(By.ID, "submit")
         submit.click()
